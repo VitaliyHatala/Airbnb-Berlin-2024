@@ -10,11 +10,38 @@
 
 | Field | Description |
 |-------|-------------|
-| id                          | Airbnb's unique identifier for the listing                                 |
-| host_id                     | Airbnb's unique identifier for the host/user                               |
-| room_type                   | All homes are grouped into the following three room types: Entire place, Private room and Shared room |
-| neighbourhood_group_cleansed| The neighbourhood group as geocoded using the latitude and longitude against neighborhoods as defined by open or public digital shapefiles |
-| price                       | Daily price                                                                 |
-| accommodates                | The maximum capacity of the listing                                        |
-| latitude                    | Uses the World Geodetic System (WGS84) projection for latitude and longitude |
-| longitude                   | Uses the World Geodetic System (WGS84) projection for latitude and longitude |
+| id                          | A unique identifier for each listing in the dataset.|
+| date                        | The specific date associated with the listing or the review (often corresponds to when the data was recorded).                               |
+| name                        | The name or title of the Airbnb listing, often provided by the host.|
+| host_id                     | The neighbourhood group as geocoded using the latitude and longitude against neighborhoods as defined by open or public digital shapefiles A unique identifier for the host who owns the listing. |
+| host_name                   | The name of the host                                                                 |
+| neighbourhood_group         | The general region or area the listing is located in. It might refer to a large geographical area like a district or a collection of neighborhoods.                                     |
+| neighbourhood                    | The general region or area the listing is located in. It might refer to a large geographical area like a district or a collection of neighborhoods. |
+| latitude                   | The geographic latitude of the listing (helps locate the property on a map). |
+| longitude                          | The geographic longitude of the listing (helps locate the property on a map).|
+| room_type                        | The type of room being rented (e.g., Entire home/apt, Private room, Shared room).                               |
+| price                        | The price per night for booking the listing.|
+| number_of_reviews                     | The total number of reviews received by the listing. |
+| reviews_per_month                   | The average number of reviews the listing receives per month.                                                                |
+| calculated_host_listings_count                | The total number of listings owned by the host.                                        |
+| availability_365                    | The number of days in a year (365) that the listing is available for booking. |
+| name_lang                   | The language of the listing’s name (e.g., English, German, etc.). |
+| year                    | The year the data was recorded or the review was posted. |
+| month                   | The month the data was recorded or the review was posted. |
+
+## Tools
+### 1. [Python](https://www.python.org/)
+### 2. [Jupyter Notebook](https://jupyter.org/)
+### 3. [Pandas](https://pandas.pydata.org/)
+### 4. [GeoPandas](https://geopandas.org/en/stable/)
+### 5. [Matplotlib](https://matplotlib.org/)
+### 6. [Seaborn](https://seaborn.pydata.org/)
+
+## Analysis
+### We will uncover insights on:
+
+##### 1. Listings types: Company 'Airbnb' offers a room or a shared room within one's home. Is it so?
+##### 2. Neighborhoods: Are listings evenly spread across neighborhoods or are there hotspots?
+##### 3. Ownership: are properties owned by individual users or are there users with multiple rental properties (i.e. potentially for speculation)?
+##### 4. Prices: What does mostly the price depend on?
+##### 5. Trends and Seasonality: Is the flow of tourists seasonal, that is does it follow a seasonal trend? Can we explain the pattern?
