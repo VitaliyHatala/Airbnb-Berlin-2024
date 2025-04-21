@@ -8,7 +8,7 @@
 ### For this project we are analyzing Berlin’s Airbnb data from 2009 to 2024.
 ### The dataset is publicly available at [site](http://insideairbnb.com/get-the-data.html)
 
-| Field                        | Description                                                                 |
+| Field| Description |
 |-----------------------------|-----------------------------------------------------------------------------|
 | id                          | Airbnb's unique identifier for the listing                                 |
 | host_id                     | Airbnb's unique identifier for the host/user                               |
