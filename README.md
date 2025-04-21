@@ -7,3 +7,6 @@
 ## Dataset
 ### For this project we are analyzing Berlin’s Airbnb data from 2009 to 2024.
 ### The dataset is publicly available at [site](http://insideairbnb.com/get-the-data.html)
+
+| Field | Description |
+| id | A unique identifier for each listing in the dataset. |
