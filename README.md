@@ -9,7 +9,6 @@
 ### The dataset is publicly available at [site](http://insideairbnb.com/get-the-data.html)
 
 | Field| Description |
-|-----------------------------|-----------------------------------------------------------------------------|
 | id                          | Airbnb's unique identifier for the listing                                 |
 | host_id                     | Airbnb's unique identifier for the host/user                               |
 | room_type                   | All homes are grouped into the following three room types: Entire place, Private room and Shared room |
