@@ -30,18 +30,18 @@
 | month                   | The month the data was recorded or the review was posted. |
 
 ## Tools
-### 1. [Python](https://www.python.org/)
-### 2. [Jupyter Notebook](https://jupyter.org/)
-### 3. [Pandas](https://pandas.pydata.org/)
-### 4. [GeoPandas](https://geopandas.org/en/stable/)
-### 5. [Matplotlib](https://matplotlib.org/)
-### 6. [Seaborn](https://seaborn.pydata.org/)
+#### 1. [Python](https://www.python.org/)
+#### 2. [Jupyter Notebook](https://jupyter.org/)
+#### 3. [Pandas](https://pandas.pydata.org/)
+#### 4. [GeoPandas](https://geopandas.org/en/stable/)
+#### 5. [Matplotlib](https://matplotlib.org/)
+#### 6. [Seaborn](https://seaborn.pydata.org/)
 
 ## Analysis
 ### We will uncover insights on:
 
-##### 1. Listings types: Company 'Airbnb' offers a room or a shared room within one's home. Is it so?
-##### 2. Neighborhoods: Are listings evenly spread across neighborhoods or are there hotspots?
-##### 3. Ownership: are properties owned by individual users or are there users with multiple rental properties (i.e. potentially for speculation)?
-##### 4. Prices: What does mostly the price depend on?
-##### 5. Trends and Seasonality: Is the flow of tourists seasonal, that is does it follow a seasonal trend? Can we explain the pattern?
+#### 1. Listings types: Company 'Airbnb' offers a room or a shared room within one's home. Is it so?
+#### 2. Neighborhoods: Are listings evenly spread across neighborhoods or are there hotspots?
+#### 3. Ownership: are properties owned by individual users or are there users with multiple rental properties (i.e. potentially for speculation)?
+#### 4. Prices: What does mostly the price depend on?
+#### 5. Trends and Seasonality: Is the flow of tourists seasonal, that is does it follow a seasonal trend? Can we explain the pattern?
